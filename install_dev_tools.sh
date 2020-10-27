@@ -82,7 +82,10 @@ echo "alias simulator-open=\"open /Applications/Xcode.app/Contents/Developer/App
 echo "alias pod-reset=\"pod deintegrate && pod cache clean --all && pod install --repo-update\"" >> ~/.zshrc
 source ~/.zshrc
 
-
+# Speedtest
+brew tap teamookla/speedtest
+brew update
+brew install speedtest --force
 
 # Swift On VSCode
 git clone https://github.com/apple/sourcekit-lsp.git
