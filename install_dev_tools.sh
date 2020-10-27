@@ -79,7 +79,7 @@ echo "alias git-commit=\"git add . && git commit -m \"" >> ~/.zshrc &&
 echo "alias git-pull=\"git pull --rebase origin \"" >> ~/.zshrc
 echo "alias simulator-list=\"xcrun simctl list\"" >> ~/.zshrc
 echo "alias simulator-open=\"open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app\"" >> ~/.zshrc
-echo "alias pod-reset=\"pod deintegrate && pod cache clean --all && pod install\"" >> ~/.zshrc
+echo "alias pod-reset=\"pod deintegrate && pod cache clean --all && pod install --repo-update\"" >> ~/.zshrc
 source ~/.zshrc
 
 
